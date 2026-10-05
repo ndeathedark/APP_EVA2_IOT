@@ -1,4 +1,4 @@
-package com.example.webservicessencillo;
+package com.htgndrk.iotsecur;
 
 import org.junit.Test;
 
