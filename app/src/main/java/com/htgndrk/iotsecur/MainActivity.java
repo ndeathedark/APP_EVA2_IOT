@@ -1,6 +1,7 @@
 package com.htgndrk.iotsecur;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -80,6 +81,9 @@ public class MainActivity extends AppCompatActivity {
                         if (esLogin) {
                             if (res.equals("exito")) {
                                 Toast.makeText(getApplicationContext(), "Acceso Concedido", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(MainActivity.this, ControlActivity.class);
+                                startActivity(intent);
+                                finish();
                             } else {
                                 Toast.makeText(getApplicationContext(), "Credenciales Incorrectas", Toast.LENGTH_SHORT).show();
                             }
