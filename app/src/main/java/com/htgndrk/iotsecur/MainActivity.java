@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnIngresar, btnRegistrar, btnLimpiar;
 
     // IP estática de la Raspberry Pi en tu red WiFi
-    private static final String IP_RASPBERRY = "http://10.63.55.194/ioteva2/";
+    private static final String IP_RASPBERRY = "http://192.168.1.22/EVA2/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

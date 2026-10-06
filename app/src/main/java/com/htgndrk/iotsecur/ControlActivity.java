@@ -17,7 +17,7 @@ public class ControlActivity extends AppCompatActivity {
 
     private Button btnEncender, btnApagar;
     // IMPORTANTE: Pon la IP actual de tu Raspberry Pi y apunta a st.php
-    private static final String URL_ESTADO = "http://10.63.55.194/ioteva2/st.php";
+    private static final String URL_ESTADO = "http://192.168.1.22/EVA2/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
